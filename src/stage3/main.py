@@ -39,10 +39,10 @@ for i in [configs["type_n2v"], str(configs["h_size"]), configs["data_type"]]:
         if not os.path.isdir(output_dir):
                 os.mkdir(output_dir)
 
-#preprocessing(configs)
-#encoding(configs)
-#if configs["data_type"] == "npy":
-#        pickle2npy(configs)
+preprocessing(configs)
+encoding(configs)
+if configs["data_type"] == "npy":
+        pickle2npy(configs)
 training(configs)
 testing(configs)
 
