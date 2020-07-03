@@ -14,7 +14,7 @@ Each directory's role and description are as follow:
 
 - project_data : This directory stores project data which are given.
 - input : This directory stores output of stage2 and preprocessed data for GWL.
-  > final_unweighted_neg_sampling.csv : output of stage2, it should be stored in this directory. 
+  > final_unweighted_neg_sampling.csv : output of stage2, it should be stored in this directory.  
   > node2vec_unweighted.model : output of stage2, it should be stored in this directory.  
   > Other necessary data and directory for GWL will be automatically created by code. See the main.py & preprocessing.py & encoding.py   
 - output : This directory stores configs, trained model, training loss and accuracy graph image, test result.  
