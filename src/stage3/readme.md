@@ -1,12 +1,12 @@
 # Generalized-WL
 
 ## Requirement 
-numpy 
-scipy
-pandas
-sklearn
-tensorflow 
-networkx
+- numpy 
+- scipy
+- pandas
+- sklearn
+- tensorflow 
+- networkx
 
 ## Note
 If you want to use pretrained data to save time, please visit the under link.
