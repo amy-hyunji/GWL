@@ -7,11 +7,11 @@ weighted = True
 
 # create a graph
 if not (weighted):
-    with open('./network_graph.p', 'rb') as file:
+    with open('../dataset/network_graph.p', 'rb') as file:
         G = pickle.load(file)
 
 else:
-    f = open("./paper_author.txt")
+    f = open("../dataset/paper_author.txt")
     lines = f.readlines()
     G = nx.Graph()
     countDict = dict()
